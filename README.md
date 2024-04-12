@@ -1,4 +1,4 @@
-# README - Sistema de Vizualização dos Trens e Metrôs de São Paulo
+# README - Sistema de Visualização dos Trens e Metrôs de São Paulo
 
 #### _Esse Sistema tem como foco trazer informações sobre trens e metros em tempo real._
 
