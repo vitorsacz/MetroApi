@@ -44,5 +44,7 @@ Gabriel Leal Onodera RM553779
 
 Vitor Cruz dos Santos RM553621
 
+Vinicius Maia Santos RM552969
+
 
 12/04/2024
