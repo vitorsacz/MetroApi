@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 
+
 function Index() {
 
-  const [message, setMessage] = useState("Loading");
-  const [people, setPeople] = useState([]);
+  const [amarela, setAmarela] = useState();
+  
+  
 
   useEffect(() => {
     // link para a api do flask
@@ -15,8 +17,7 @@ function Index() {
       //message = 'Loading'
       //depois a mensagem é setada
       // message = data.message (Pegando o a mensagem da pi)
-      setMessage(data.message);
-      setPeople(data.people);
+      setAmarela(data.amarela)
 
       //console.log(data.message); //apenas para ver o conteudo sendo chamado no console
       //console.log(data.people);
@@ -25,16 +26,18 @@ function Index() {
 
   return (
     <>
-      <div> <p>aqui eu estou passando a mensagem </p>{ message }</div>
+    <div className='home'>
+      <div>
+        <h1>OPERAÇÃO DAS LINHAS DE METRO</h1>
 
-      {/* o map funciona como um for, para iterar dentro do array qe contem os */}
+        <div>
+          <h2>Linha Amarela</h2>
+          <p>{amarela}</p>
+        </div>
+
+      </div>
+    </div>
       
-      {people.map((person, index) => (
-
-        <div key={index}>{person}</div>
-
-      ))}
-    
     </>
   
   )
