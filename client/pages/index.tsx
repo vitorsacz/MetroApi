@@ -25,7 +25,7 @@ function Index() {
 
   return (
     <>
-      <div> { message }</div>
+      <div> <p>aqui eu estou passando a mensagem </p>{ message }</div>
 
       {/* o map funciona como um for, para iterar dentro do array qe contem os */}
       
