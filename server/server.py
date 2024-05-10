@@ -21,10 +21,8 @@ def return_home():
     
     status_linhas = scrapper_status(vq_home, ALL_LINES)
 
-    return jsonify({ 
-        status_linhas
-    })
-
+    return jsonify(status_linhas)
+    
 
 def get_page_html(url):
     try:
@@ -74,19 +72,20 @@ def get_time_data(soup):
 def scrapper_status(vq_home, ALL_LINES):
 
     soup = BeautifulSoup(vq_home, 'html.parser' )
-    # time_data = get_time_data(soup)
+    #time_data = get_time_data(soup)
     op_status = get_operation_status(soup, ALL_LINES)
 
     status_linhas = {}
+    #last_atualization = {}
 
     for line in ALL_LINES:
+
         status_linhas[line] = op_status[line]
+        #last_atualization[line] = time_data[line]
         print([line, op_status[line]])
 
-    # Converter o dicionário status_linhas para o formato JSON
-    json_data = json.dumps(status_linhas)  # Usar json.dumps para converter
-
-    return json_data
+    print(status_linhas)
+    return status_linhas #last_atualization
 
 if __name__ == '__main__':
     app.run(debug = True, port=8080)
