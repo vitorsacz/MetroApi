@@ -21,7 +21,10 @@ def return_home():
     
     status_linhas = scrapper_status(vq_home, ALL_LINES)
 
-    return jsonify(status_linhas)
+    #converten
+    status_linhas_str = json.dumps(status_linhas, ensure_ascii=False).encode('utf-8')
+
+    return status_linhas_str
     
 
 def get_page_html(url):
