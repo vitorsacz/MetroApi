@@ -5,8 +5,15 @@ from bs4 import BeautifulSoup
 import logging
 import json
 
+
+
 app = Flask(__name__)
 CORS(app)
+
+@app.route("/", methods=['GET'])
+def index():
+
+    return "serving is on"
 
 #api/home = tela inicial, neste caso retorna um JSON
 @app.route("/api/home", methods=['GET'])
@@ -25,7 +32,7 @@ def return_home():
     status_linhas_str = json.dumps(status_linhas, ensure_ascii=False).encode('utf-8')
 
     return status_linhas_str
-    
+        
 
 def get_page_html(url):
     try:
