@@ -1,4 +1,9 @@
 import React, { useEffect, useState } from 'react'
+import Image from 'next/image';
+import Metro from './assets/metro-logo.png'
+import Cptm from './assets/cptm-logo.png'
+import Via4 from './assets/via4-logo.png'
+import ViaMobilidade from './assets/viamobilidade-logo.png'
 
 
 function Index() {
@@ -52,70 +57,166 @@ function Index() {
   return (
     <>
     <div>
-        <h1>OPERAÇÃO DAS LINHAS DE METRO</h1>
+        <h1>OPERAÇÃO DAS LINHAS DE TRENS E METROS - SP</h1>
 
-        <div>
+        <div className='container'>
           <div>
           {/* inserir uma imagem do metro  */}
+            <Image src={Metro} alt='Logo Metro SP'/>
+
             <h2>Metro sp</h2>
 
-            <p>Linhas azul</p>
-            <p>{azul}</p>
+            <div className='line-format azul'>
+              <div className='line-number'>1</div>
+              <div>
+                <p>Linha azul</p>
+                <p>{azul}</p>
+              </div>
+              
+            </div>
 
-            <p>Linhas verde</p>
-            <p>{verde}</p>
+            <div className='line-format verde'>
+              <div className='line-number'>2</div>
+              <div>
+                <p>Linha verde</p>
+                <p>{verde}</p>
+              </div>
+              
+            </div>
 
-            <p>Linhas vermelha</p>
-            <p>{vermelha}</p>
 
-            <p>Linhas prata</p>
-            <p>{prata}</p>
+            <div className='line-format vermelha'>
+              <div className='line-number'>3</div>
+              <div>
+                <p>Linha vermelha</p>
+                <p>{vermelha}</p>
+              </div>
+              
+            </div>
+
+
+            <div className='line-format prata'>
+              <div className='line-number'>15</div>
+              <div>
+                <p>Linha prata</p>
+                <p>{prata}</p>
+              </div>
+              
+            </div>
+            
+
+            
+
+            
+
+            
 
           </div>
 
           <div>
           {/* inserir uma imagem da via mobilidade  */}
+           <Image src={ViaMobilidade} alt='Logo Metro SP'/>
+
             <h2>Via Mobilidade</h2> 
-
-            <p>Linhas lilas</p>
-            <p>{lilas}</p>
             
-            <p>Linhas diamante</p>
-            <p>{diamante}</p>
-            
-            <p>Linhas esmeralda</p>
-            <p>{esmeralda}</p>
 
+            <div className='line-format lilas'>
+              <div className='line-number'>5</div>
+              <div>
+                <p>Linha lilas</p>
+                <p>{lilas}</p>
+              </div>
+              
+            </div>
+
+            <div className='line-format diamante'>
+              <div className='line-number'>8</div>
+              <div>
+                <p>Linha diamante</p>
+                <p>{diamante}</p>
+              </div>
+              
+            </div>
+
+            <div className='line-format esmeralda'>
+              <div className='line-number'>9</div>
+              <div>
+                <p>Linha esmeralda</p>
+                <p>{esmeralda}</p>
+              </div>
+              
+            </div>
 
           </div>
 
           <div>
           {/* inserir uma imagem da Cptm  */}
+
+            <Image src={Cptm} alt='Logo Metro SP'/>
             <h2>CPTM</h2> 
 
-            <p>Linhas rubi</p>
-            <p>{rubi}</p>
+            <div className='line-format rubi'>
+              <div className='line-number'>7</div>
+              <div>
+                <p>Linha rubi</p>
+                <p>{rubi}</p>
+              </div>
+              
+            </div>
 
-            <p>Linhas turquesa</p>
-            <p>{turquesa}</p>
-            
-            <p>Linhas coral</p>
-            <p>{coral}</p>
-            
-            <p>Linhas safira</p>
-            <p>{safira}</p>
-            
-            <p>Linhas jade</p>
-            <p>{jade}</p>
+            <div className='line-format turquesa'>
+              <div className='line-number'>10</div>
+              <div>
+                <p>Linha turquesa</p>
+                <p>{turquesa}</p>
+              </div>
+              
+            </div>
 
+            <div className='line-format coral'>
+              <div className='line-number'>11</div>
+              <div>
+                <p>Linha coral</p>
+              <p>{coral}</p>
+              </div>
+              
+            </div>
+
+            <div className='line-format safira'>
+              <div className='line-number'>12</div>
+              <div>
+                <p>Linha safira</p>
+                <p>{safira}</p>
+              </div>
+              
+            </div>
+
+            <div className='line-format jade'>
+              <div className='line-number'>13</div>
+              <div>
+                <p>Linha jade</p>
+                <p>{jade}</p>
+              </div>
+              
+            </div>
 
           </div>
 
           <div>
           {/* inserir uma imagem da Via4  */}
+            <Image src={Via4} alt='Logo Metro SP'/>
+
             <h2>Via 4</h2> 
-            <p>Linhas amarela</p>
-            <p>{amarela}</p>
+
+            <div className='line-format amarela'>
+              <div className='line-number'>4</div>
+              <div>
+                <p>Linha amarela</p>
+                <p>{amarela}</p>
+              </div>   
+            </div>
+            
+            
 
 
           </div>

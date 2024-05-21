@@ -1,1 +1,98 @@
 
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: flex ;
+    justify-content: center;
+    gap: 50px;
+}
+
+img{
+    height: 50px;
+    width: auto;
+}
+
+.line-format{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    border-radius: 40px;
+    width: 180px;
+    line-height: 0.5;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.line-format p{
+    line-height: 1;
+}
+
+.line-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 220, 220);    
+    padding: 5px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelha{
+    background-color: red;
+}
+
+.prata{
+    background-color: silver;
+}
+
+.lilas{
+    background-color: purple;
+}
+
+.diamante{
+    background-color: rgb(193, 250, 252);
+}
+
+.esmeralda{
+    background-color: rgb(130, 255, 80);
+}
+
+.rubi{
+    background-color: rgb(132, 28, 28);
+}
+
+.turquesa{
+    background-color: rgb(2, 221, 217);
+}
+
+.coral{
+    background-color: rgb(233, 116, 140);
+}
+
+.safira{
+    background-color: rgb(24, 4, 136);
+}
+
+.jade{
+    background-color: rgb(61, 135, 77);
+}
+
+.amarela{
+    background-color: rgb(255, 241, 49);
+}
+
