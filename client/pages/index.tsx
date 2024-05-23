@@ -66,6 +66,19 @@ function Index() {
 
             <h2>Metro sp</h2>
 
+            <article>
+              <div className='number azul'>
+                <p>1</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Azul</p>
+              </div>
+              <div>
+                <p>{azul}</p>
+              </div>
+            </article>
+
+
             <div className='line-format azul'>
               <div className='line-number'>1</div>
               <div>
@@ -211,7 +224,7 @@ function Index() {
             <div className='line-format amarela'>
               <div className='line-number'>4</div>
               <div>
-                <p>Linha amarela</p>
+                <p>Linha amarela</p>   
                 <p>{amarela}</p>
               </div>   
             </div>
