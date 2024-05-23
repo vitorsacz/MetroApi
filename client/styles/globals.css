@@ -1,4 +1,11 @@
 
+
+main{   
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
 h1{
     text-align: center;
     padding-bottom: 20px;
@@ -8,11 +15,13 @@ h1{
     display: flex ;
     justify-content: center;
     gap: 50px;
+    text-align: center;
 }
 
 img{
     height: 50px;
     width: auto;
+    margin-bottom: 20px;
 }
 
 .line-format{
@@ -22,6 +31,7 @@ img{
     gap: 15px;
     text-align: center;
     border-radius: 40px;
+    border: 1px solid black;
     width: 180px;
     line-height: 0.5;
     padding: 0px 10px;
@@ -44,16 +54,45 @@ img{
     font-size: 20px;
 }
 
+article{
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0, 1, 0, 0.2);
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.number{
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid rgb(228, 220, 220)
+}
+
+.lines{
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .azul{
     background-color: blue;
+    color: white;
 }
 
 .verde{
     background-color: green;
+    color: white;
 }
 
 .vermelha{
     background-color: red;
+    color: white;
 }
 
 .prata{
@@ -62,6 +101,8 @@ img{
 
 .lilas{
     background-color: purple;
+    color: white;
+
 }
 
 .diamante{
@@ -74,6 +115,7 @@ img{
 
 .rubi{
     background-color: rgb(132, 28, 28);
+    color: white;
 }
 
 .turquesa{
@@ -86,13 +128,17 @@ img{
 
 .safira{
     background-color: rgb(24, 4, 136);
+    color: white;
 }
 
 .jade{
     background-color: rgb(61, 135, 77);
+    color: white;
 }
 
 .amarela{
     background-color: rgb(255, 241, 49);
 }
+
+
 
