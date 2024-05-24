@@ -62,7 +62,7 @@ function Index() {
         <div className='container'>
           <div>
           {/* inserir uma imagem do metro  */}
-            <Image src={Metro} alt='Logo Metro SP'/>
+            <Image src={Metro} alt='Logo Metro SP' className='logos'/>
 
             
 
@@ -118,7 +118,7 @@ function Index() {
 
           <div>
           {/* inserir uma imagem da via mobilidade  */}
-           <Image src={ViaMobilidade} alt='Logo Metro SP'/>
+           <Image src={ViaMobilidade} alt='Logo Metro SP' className='logos'/>
 
 
             <article>
@@ -162,7 +162,7 @@ function Index() {
           <div>
           {/* inserir uma imagem da Cptm  */}
 
-            <Image src={Cptm} alt='Logo Metro SP'/>
+            <Image src={Cptm} alt='Logo Metro SP' className='logos'/>
             
 
             <article>
@@ -229,7 +229,7 @@ function Index() {
 
           <div>
           {/* inserir uma imagem da Via4  */}
-            <Image src={Via4} alt='Logo Metro SP'/>
+            <Image src={Via4} alt='Logo Metro SP' className='logos'/>
 
             <article>
               <div className='number amarela'>
@@ -246,6 +246,7 @@ function Index() {
           </div>
         </div>
     </div>
+      <hr />
       
     </>
   
