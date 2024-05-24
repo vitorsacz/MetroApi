@@ -142,3 +142,12 @@ article{
 
 
 
+
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+.container-footer{
+    align-self: center;
+}

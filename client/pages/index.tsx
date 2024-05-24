@@ -57,14 +57,14 @@ function Index() {
   return (
     <>
     <div>
-        <h1>OPERAÇÃO DAS LINHAS DE TRENS E METROS - SP</h1>
+        <h1>Dashboard de Operação dos Trens e Metrôs -SP </h1>
 
         <div className='container'>
           <div>
           {/* inserir uma imagem do metro  */}
             <Image src={Metro} alt='Logo Metro SP'/>
 
-            <h2>Metro sp</h2>
+            
 
             <article>
               <div className='number azul'>
@@ -78,51 +78,41 @@ function Index() {
               </div>
             </article>
 
-
-            <div className='line-format azul'>
-              <div className='line-number'>1</div>
-              <div>
-                <p>Linha azul</p>
-                <p>{azul}</p>
+            <article>
+              <div className='number verde'>
+                <p>2</p>
               </div>
-              
-            </div>
-
-            <div className='line-format verde'>
-              <div className='line-number'>2</div>
+              <div className='lines'>
+                <p>Linha Verde</p>
+              </div>
               <div>
-                <p>Linha verde</p>
                 <p>{verde}</p>
               </div>
-              
-            </div>
+            </article>
 
-
-            <div className='line-format vermelha'>
-              <div className='line-number'>3</div>
+            <article>
+              <div className='number vermelha'>
+                <p>3</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Vermelha</p>
+              </div>
               <div>
-                <p>Linha vermelha</p>
                 <p>{vermelha}</p>
               </div>
-              
-            </div>
+            </article>
 
-
-            <div className='line-format prata'>
-              <div className='line-number'>15</div>
+            <article>
+              <div className='number prata'>
+                <p>15</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Prata</p>
+              </div>
               <div>
-                <p>Linha prata</p>
                 <p>{prata}</p>
               </div>
-              
-            </div>
-            
-
-            
-
-            
-
-            
+            </article>
 
           </div>
 
@@ -130,35 +120,42 @@ function Index() {
           {/* inserir uma imagem da via mobilidade  */}
            <Image src={ViaMobilidade} alt='Logo Metro SP'/>
 
-            <h2>Via Mobilidade</h2> 
-            
 
-            <div className='line-format lilas'>
-              <div className='line-number'>5</div>
+            <article>
+              <div className='number lilas'>
+                <p>5</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Lilas</p>
+              </div>
               <div>
-                <p>Linha lilas</p>
                 <p>{lilas}</p>
               </div>
-              
-            </div>
+            </article>
 
-            <div className='line-format diamante'>
-              <div className='line-number'>8</div>
+            <article>
+              <div className='number diamante'>
+                <p>8</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Diamante</p>
+              </div>
               <div>
-                <p>Linha diamante</p>
                 <p>{diamante}</p>
               </div>
-              
-            </div>
+            </article>
 
-            <div className='line-format esmeralda'>
-              <div className='line-number'>9</div>
+            <article>
+              <div className='number esmeralda'>
+                <p>9</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Esmeralda</p>
+              </div>
               <div>
-                <p>Linha esmeralda</p>
                 <p>{esmeralda}</p>
               </div>
-              
-            </div>
+            </article>
 
           </div>
 
@@ -166,52 +163,67 @@ function Index() {
           {/* inserir uma imagem da Cptm  */}
 
             <Image src={Cptm} alt='Logo Metro SP'/>
-            <h2>CPTM</h2> 
+            
 
-            <div className='line-format rubi'>
-              <div className='line-number'>7</div>
+            <article>
+              <div className='number rubi'>
+                <p>7</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Rubi</p>
+              </div>
               <div>
-                <p>Linha rubi</p>
                 <p>{rubi}</p>
               </div>
-              
-            </div>
+            </article>
 
-            <div className='line-format turquesa'>
-              <div className='line-number'>10</div>
+            <article>
+              <div className='number turquesa'>
+                <p>10</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Turquesa</p>
+              </div>
               <div>
-                <p>Linha turquesa</p>
                 <p>{turquesa}</p>
               </div>
-              
-            </div>
+            </article>
 
-            <div className='line-format coral'>
-              <div className='line-number'>11</div>
-              <div>
-                <p>Linha coral</p>
-              <p>{coral}</p>
+            <article>
+              <div className='number coral'>
+                <p>11</p>
               </div>
-              
-            </div>
-
-            <div className='line-format safira'>
-              <div className='line-number'>12</div>
+              <div className='lines'>
+                <p>Linha Coral</p>
+              </div>
               <div>
-                <p>Linha safira</p>
+                <p>{coral}</p>
+              </div>
+            </article>
+
+            <article>
+              <div className='number safira'>
+                <p>12</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Safira</p>
+              </div>
+              <div>
                 <p>{safira}</p>
               </div>
-              
-            </div>
+            </article>
 
-            <div className='line-format jade'>
-              <div className='line-number'>13</div>
+            <article>
+              <div className='number jade'>
+                <p>13</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Jade</p>
+              </div>
               <div>
-                <p>Linha jade</p>
                 <p>{jade}</p>
               </div>
-              
-            </div>
+            </article>
 
           </div>
 
@@ -219,18 +231,17 @@ function Index() {
           {/* inserir uma imagem da Via4  */}
             <Image src={Via4} alt='Logo Metro SP'/>
 
-            <h2>Via 4</h2> 
-
-            <div className='line-format amarela'>
-              <div className='line-number'>4</div>
+            <article>
+              <div className='number amarela'>
+                <p>1</p>
+              </div>
+              <div className='lines'>
+                <p>Linha Amarela</p>
+              </div>
               <div>
-                <p>Linha amarela</p>   
                 <p>{amarela}</p>
-              </div>   
-            </div>
-            
-            
-
+              </div>
+            </article>
 
           </div>
         </div>
